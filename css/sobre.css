@@ -57,3 +57,8 @@ figcaption {
     float: right;
     margin: 0 0 10px 10px;
 }
+
+.container {
+    margin-right: auto;
+    margin-left: auto;
+}
