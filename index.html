@@ -9,8 +9,8 @@
     <link rel="stylesheet" href="css/estilos.css">
 </head>
 <body>
-    <header class="container">
-        <!-- Conteúdo do cabeçalho -->
+    <!-- Conteúdo do cabeçalho -->
+    <header class="container"> 
         <h1><img src="img/logo.png" alt="Mirror Fashion"></h1>
         <p class="sacola">Nenhum item na sacola de compras</p>
 
@@ -23,19 +23,22 @@
                 <li><a href="#">Ajuda</a></li>
             </ul>
         </nav>
-    </header>
+    </header> 
+    <!-- Fim conteúdo do cabeçalho -->
 
+    <!-- Conteúdo principal -->
     <div class="container destaque">
-        <!-- Conteúdo principal -->
-        <section>
+        <!-- Inicio .busca -->
+        <section class="busca"> 
             <h2>Busca</h2>
-
             <form>
                 <input type="search">
-                <button>Buscar</button> <!--Fim .busca -->
+                <button></button> 
             </form>
         </section>
+        <!--Fim .busca -->
 
+        <!-- Inicio .menu-departamentos -->
         <section class="menu-departamentos">
             <h2>Departamentos</h2>
 
@@ -50,17 +53,23 @@
                     <li><a href="#">Acessórios</a></li>
                 </ul>
             </nav>
-        </section> <!-- Fim .menu-departamentos -->
+        </section> 
+        <!-- Fim .menu-departamentos -->
 
+        <!-- Inicio .banner-destaque -->
         <section class="banner-destaque">
             <figure>
                 <img src="img/destaque-home.png" alt="Promoção: Big City Night">
             </figure>
-        </section> <!-- Fim .banner-destaque -->
-    </div> <!-- Fim .container .destaque -->
+        </section> 
+        <!-- Fim .banner-destaque -->
+    </div> 
+    <!-- Fim Conteúdo principal -->
 
-    <div class="container paineis"> <!-- Paineis (novidades - mais vendidos)-->
-        <section class="painel novidades"> <!-- Painel novidade -->
+    <!-- Paineis (novidades - mais vendidos)-->
+    <div class="container paineis"> 
+        <!-- Painel novidade -->
+        <section class="painel novidades"> 
             <h2>Novidades</h2> <!-- Título de nividades-->
             <ol> <!-- Inicio da lista de produtos -->
                 <li> <!-- 1º produto -->
@@ -76,7 +85,7 @@
                     <a href="produto.html">
                         <figure>
                             <img src="img/produtos/miniatura2.png" alt="miniatura2">
-                            <figcaption>Blusa + short + Pulseira por R$ 170,00</figcaption>
+                            <figcaption>Blusa + short R$ 170,00</figcaption>
                         </figure>
                     </a>
                 </li> <!-- Fim do 2º produto -->
@@ -117,9 +126,11 @@
                     </a>
                 </li> <!-- Fim do 6º produto -->
             </ol> <!-- Fim da lista de produtos -->
-        </section> <!-- Fim do painel novidade -->
+        </section> 
+        <!-- Fim do painel novidade -->
 
-        <section class="painel mais-vendidos"> <!-- Painel mais-vendidos -->
+        <!-- Painel mais-vendidos -->
+        <section class="painel mais-vendidos"> 
             <h2>Mais Vendidos</h2> <!-- Título mais vendidos -->
             <ol> <!-- Inicio da lista de produtos -->
                 <li> <!-- 1º produto -->
@@ -168,12 +179,24 @@
                     </a>
                 </li> <!-- Fim do 6º produto -->
             </ol> <!-- Fim da lista de produtos -->
-        </section> <!-- Fim do painel mais-vendidos -->
-    </div> <!-- Fim .container paineis -->
+        </section> 
+        <!-- Fim do painel mais-vendidos -->
+    </div> 
+    <!-- Fim Paineis (novidades - mais vendidos) -->
 
+    <!-- conteúdo do rodapé -->
     <footer>
-        <!-- conteúdo do rodapé -->
+        <div class="container">
+            <img src="img/logo-rodape.png" alt="Logo da Mirror Fashion">
+
+            <ul class="social">
+                <li><a href="http://facebook.com/mirrorfashion">Facebook</a></li>
+                <li><a href="http://twitter.com/morrorfashion">Twitter</a></li>
+                <li><a href="http://plus.google.com/mirrorfashion">Google+</a></li>
+            </ul>
+
+        </div>
     </footer>
-    
+        <!-- Fim conteúdo do rodapé -->
 </body>
 </html>
