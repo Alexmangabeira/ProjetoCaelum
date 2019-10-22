@@ -55,6 +55,10 @@ figcaption {
     width: 550px;
 }
 
+ul li {
+    margin-left: 40px;
+}
+
 #rodape {
     color: #777;
     margin: 30px 0;
@@ -71,7 +75,7 @@ figcaption {
     float: right;
     margin: 0 0 10px 10px;
 }
-
+/*
 .anuncio {
     font-size: 40px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -80,7 +84,7 @@ figcaption {
     background-color: #B0C4DE;
     margin-top: 20px;
 }
-
+*/
 ul li {
     padding-top: 3px;
 }
