@@ -144,3 +144,63 @@ busca form,
 .mais-vendidos {
     background-color: #DCDCF5;
 }
+
+/* Rodapé*/
+
+footer {
+    background-image: url(../img/fundo-rodape.png);
+    clear: both;
+    padding: 20px 0;
+}
+
+.social a {
+    /* tamanho da imagem */
+    height: 32px;
+    width: 32px;
+
+    /*image replacement */
+    display: block;
+    text-indent: -9999px;
+}
+
+.social a[href*="facebook.com"] {
+    background-image: url(../img/facebook.png);
+}
+
+.social a[href*="twitter.com"] {
+    background-image: url(../img/twitter.png);
+}
+
+.social a[href*="plus.google.com"] {
+    background-image: url(../img/googleplus.png);
+}
+
+footer .container {
+    position: relative;
+}
+
+.social {
+    position: absolute;
+    top: 12px;
+    right: 0;
+}
+
+.social li {
+    float: left;
+    margin-left: 25px;
+}
+
+/*
+*   Trocar o escrito do botão da busca pela imagem da lupa.
+*/
+
+.busca button {
+    /* adicionando imagem*/
+    background-image: url(../img/busca.png);
+    background-repeat: no-repeat;
+    border: none;
+
+    /* tamanho da imagem */
+    width: 20px;
+    height: 20px;
+}
