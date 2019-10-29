@@ -1,10 +1,27 @@
 body {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    
+}
+
+.content {
+    width: 940px;
     color: #333333;
     margin-left: auto;
     margin-right: auto;
-    width: 940px;
     text-align: justify;
+}
+
+.diferenciais {
+    text-align: justify;
+    width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #333333;
+}
+
+.diferenciais ul li {
+    margin-left: 40px;
+    padding: 3px;
 }
 
 h1 {
@@ -55,9 +72,7 @@ figcaption {
     width: 550px;
 }
 
-ul li {
-    margin-left: 40px;
-}
+
 
 #rodape {
     color: #777;
@@ -85,7 +100,4 @@ ul li {
     margin-top: 20px;
 }
 */
-ul li {
-    padding-top: 3px;
-}
 
