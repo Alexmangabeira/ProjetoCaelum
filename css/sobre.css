@@ -101,3 +101,19 @@ figcaption {
 }
 */
 
+/* SELETORES, PSEUDO-CLASSES E PSEUDO-ELEMENTOS */
+/* Primeira letras dos parágrafos fiquem em negrito*/
+
+p::first-letter {
+    font-weight: bold;
+}
+
+/* Remover a indentação do primeiro paragrafo | Usando seletor de irmão adjacente*/
+h3 + p {
+    text-indent: 0;
+}
+
+p::first-line {
+    font-variant: small-caps;
+}
+
