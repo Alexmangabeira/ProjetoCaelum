@@ -203,3 +203,35 @@ footer .container {
     width: 20px;
     height: 20px;
 }
+
+/* Alterando estado do link quando o usúario passar o mouse */
+
+.menu-opcoes a:hover {
+    color: #007DC6;
+}
+
+/* Ativa o link. Mantendo o mouse presionado */
+.menu-opcoes a:active {
+    color: #867DC6;
+}
+
+/* Escoder sublista {Manga curta - Manga comprida - Camisa social...}*/
+
+.menu-departamentos li ul {
+    display: none;
+}
+
+/* Mostrar sublista no passa do mouse*/
+.menu-departamentos li:hover ul {
+    display: block;
+}
+
+/* Cor de Fundo da sublista*/
+.menu-departamentos ul ul li {
+    background-color: #DCDCDC;
+}
+
+/*Não tem na apostila */
+.menu-departamentos ul ul li a:hover {
+    color: red;
+}
