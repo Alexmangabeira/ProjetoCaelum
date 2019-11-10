@@ -113,7 +113,7 @@ h3 + p {
     text-indent: 0;
 }
 
-p::first-line {
+:not(p) + p::first-line {
     font-variant: small-caps;
 }
 
