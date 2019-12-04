@@ -173,7 +173,8 @@ h3 + p {
         }
 
         .content,
-        .diferenciais {
+        .diferenciais,
+        .container {
         width: 69%;
         }
     }
